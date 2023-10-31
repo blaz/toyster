@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require_relative 'table'
 require_relative 'errors'
 
 class Robot
@@ -19,6 +18,7 @@ class Robot
     validate_facing
   end
 
+  # This is not really complex
   def move # rubocop:disable Metrics/CyclomaticComplexity
     case facing
     when :north

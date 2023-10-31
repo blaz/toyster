@@ -1,0 +1,2 @@
+# Should produce a invalid facing value error
+PLACE 0,0,SOUTHWEST

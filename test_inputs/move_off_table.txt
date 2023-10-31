@@ -1,0 +1,28 @@
+PLACE 0,0,WEST
+MOVE
+# Should stay on 0,0 since we are at the bottom left corner facing west
+REPORT
+LEFT
+MOVE
+# Should stay on 0,0 since we are at the bottom left corner facing south
+REPORT
+LEFT
+MOVE
+# We should be on 1,0 now
+REPORT
+# Move to NE corner facing north
+PLACE 4,4,NORTH
+REPORT
+MOVE
+# Should stay at 4,4
+REPORT
+# Face east
+RIGHT
+MOVE
+# Should stay on 4,4
+REPORT
+# Face south
+RIGHT
+MOVE
+# Should move to 4,3
+REPORT

@@ -1,0 +1,13 @@
+AllCops:                                                                 
+  NewCops: enable                                                        
+
+Style/Documentation:
+  Enabled: false
+
+Naming/MethodParameterName:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: true
+  Max: 15
+

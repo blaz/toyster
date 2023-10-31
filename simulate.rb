@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require_relative 'robot'
 require_relative 'table'
 require_relative 'command_parser'
 
